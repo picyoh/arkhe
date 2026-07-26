@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 168.7 49.63">
+  <defs>
+    <style>
+      .cls-1 {
+        mask: url(#mask-5);
+      }
+
+      .cls-2 {
+        fill: #ff2400;
+      }
+
+      .cls-3 {
+        mask: url(#mask-1);
+      }
+
+      .cls-4 {
+        filter: url(#luminosity-invert-3);
+      }
+
+      .cls-5 {
+        mask: url(#mask);
+      }
+
+      .cls-6 {
+        filter: url(#luminosity-invert-6);
+      }
+
+      .cls-7 {
+        mix-blend-mode: color-burn;
+        opacity: .81;
+      }
+
+      .cls-8 {
+        mask: url(#mask-2);
+      }
+
+      .cls-9 {
+        filter: url(#luminosity-invert-4);
+      }
+
+      .cls-10 {
+        isolation: isolate;
+      }
+
+      .cls-11 {
+        fill: #fafae6;
+      }
+
+      .cls-12 {
+        mask: url(#mask-4);
+      }
+
+      .cls-13 {
+        filter: url(#luminosity-invert-2);
+      }
+
+      .cls-14 {
+        filter: url(#luminosity-invert);
+      }
+
+      .cls-15 {
+        filter: url(#luminosity-invert-5);
+      }
+
+      .cls-16 {
+        mask: url(#mask-3);
+      }
+    </style>
+    <filter id="luminosity-invert" x="80.63" y="6.61" width="24" height="19" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feColorMatrix result="cm" values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0"/>
+    </filter>
+    <mask id="mask" x="80.63" y="6.61" width="24" height="19" maskUnits="userSpaceOnUse">
+      <g class="cls-14">
+        <image width="24" height="19" transform="translate(80.63 6.61)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAUCAYAAAB4d5a9AAAACXBIWXMAAAsSAAALEgHS3X78AAABxElEQVQ4jd3V36v5cBzH8acxkUjRyjWtVq6kuPGHKrnkQq78D3LBHRdKWCISy481n2bb90JO54SD8+18L76r1Wfrtc+jXu+twT84fID324b0ywAAgeuiUCigaRqKohCNRpFlGUmS8Pl8Nw95nofneZzPZyzLwjAMlsslk8mE6XTKdru9j2QyGUqlEpqmkUwmCYVCH8hnyPMu7bquixCC/X7PdDql0+mg6/oN8AUJh8OkUinS6TSKorxcxeFwYLfbIYSg2+3ezXzMZLVaYZomkvTemCRJwrIsFovF48x10Wq1GA6HGIbxFiKEYD6f02g0niMAg8GAfr/Per1+GXEcB8uyvs0EPl/U63UikQipVIp4PI4sy08R13WxbfvbzM0AKpUK7Xab2Wz2FLgiruu+hwD0er2Xa3sFCdy7WavVCIVC+P1+isUiiUTi4Qa2bT+t6y4CUK1WkWWZYDBILpd7CB2PRw6Hw88QgHK5jOM4CCHI5/MoivLlO9psNozHY0aj0c8RuLwIrutyOp1QVZVYLIYsy5imia7rtNttms3m3yFwqc4wDFRVJR6PE4vFMAyDxWLBcDh8ZQu8d89sNvtO/j/6af0BvXfmI/PiTJgAAAAASUVORK5CYII="/>
+      </g>
+    </mask>
+    <filter id="luminosity-invert-2" x="41.63" y="14.61" width="19" height="17" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feColorMatrix result="cm" values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0"/>
+    </filter>
+    <mask id="mask-1" x="41.63" y="14.61" width="19" height="17" maskUnits="userSpaceOnUse">
+      <g class="cls-13">
+        <image width="19" height="17" transform="translate(41.63 14.61)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAAAsSAAALEgHS3X78AAABfElEQVQ4jb3UsYrqQBTG8b9howSiYiAIahMEIUGw8xGsVAQfU23FV1BIq4VKLIQUghbDqCEk2erKXRL0epH9umHgN2fmDAc+nByQfNJTnu12Op23xa+/F/1+n1arhWEY6LpOqVRCCEEYhkRRRBiGCCHY7/dMp9Pn4GAwYDQa4TgOpmmiaRr5fJ4oiojjmDiOCYKA6/WK53nYto3ruszn82zQtm3a7TaO46Dr+tNr1et1TNMESIGPN6xWq9RqtZcYQKVSwbZtut0u4/E4DfZ6PSzLolgsvsT+pFwu02g0sCwrDSqKQi6XQ1GeNj0VTdNSN1IAFosFvu8TBMFbYFYeJUkp3wKTJEFKiZQyG7zf79xut38Gz+czx+ORw+GQDZ5OJ3zfRwjxErtcLmw2G1arFZPJ5Mfe4x9ut1vW6zWqqmKaJoVC4dGsJElIkoQwDJFS4nkey+US13VTh/0YDsPhkGaziWEYqKqaCQoh2O12zGazrOJzvztt/icfB78BA1mciPXPeMcAAAAASUVORK5CYII="/>
+      </g>
+    </mask>
+    <filter id="luminosity-invert-3" x="37.63" y="33.61" width="25" height="18" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feColorMatrix result="cm" values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0"/>
+    </filter>
+    <mask id="mask-2" x="37.63" y="33.61" width="25" height="18" maskUnits="userSpaceOnUse">
+      <g class="cls-4">
+        <image width="25" height="18" transform="translate(37.63 33.61)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAATCAYAAACORR0GAAAACXBIWXMAAAsSAAALEgHS3X78AAABrUlEQVQ4jd3Vu6rqUBCA4T8XE4kaL2AQFUUDEQQbQXwGESWVjYVPZmNp6eOIiIU2KWKjEE2Mu9gggm5JTmFxplkws+Ab1gws+FIIwP0bjvgFBAD5U3E8HmNZFrquoygKovjbVxiG+L7P8Xhks9mwWq3+HZpOp4xGI0zTJJ/Pv0DX6xXXddntdhSLRebzeXzItm2GwyH9fp9qtYosv++n0WhQr9dJJpP4vs9isYgHmaZJq9X6iACIoohhGHS7Xa7XK57nsVwu3999l8zlcmSz2Y/Ic5TLZdrtNpZl/d3Uu6SiKKiqGgkBEASBYrFIpVKJB0mShCRJkSH4fYVWq8VkMokOiaKIIAixIFmWMQwD0zSjQ7IsR57Pc2iahq7r0SFd10kkErGhZDJJPp+PBs1mM5rNJqlUKjaUTqep1WrYtv0ZGgwG9Ho9CoUCYRjGhnzfR1VVSqXSS+0xiE6nQ6VSQRRFHMdBkiQ0TUOW5cdiPC/I/X5/nGEYcrlccF2Xw+HA+Xz+G/I8j/1+TxAEbLdbMpkMiqIgSdJb6Bm73W4EQcDpdMJxHNbr9Qv0//1HP54meQbfMQiNAAAAAElFTkSuQmCC"/>
+      </g>
+    </mask>
+    <filter id="luminosity-invert-4" x="80.63" y="32.61" width="21" height="19" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feColorMatrix result="cm" values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0"/>
+    </filter>
+    <mask id="mask-3" x="80.63" y="32.61" width="21" height="19" maskUnits="userSpaceOnUse">
+      <g class="cls-9">
+        <image width="21" height="19" transform="translate(80.63 32.61)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAUCAYAAACJfM0wAAAACXBIWXMAAAsSAAALEgHS3X78AAABrUlEQVQ4jc3Uz4qCUBQG8C/1Fv0RTWjRVQgyCloYWk8SVvR4bdv1LkHlphdwYWaY4bVZDBPTaDM6MDDf8t7Dj3vPgQP8UUoA7n/hckWqDcPIXSv8VDCfz6HrOhRFgSzL8H0fYRjidDrBcRxsNptisG3bGI/HsCwLmqZBFEWUy2UwxnC9XuH7Pna7HWRZxmq1ygfbto3pdArTNKFpGhqNRqqGMYZWq4VKpYIwDLFer5/uM3s8mUxgmiZ6vV4mCgA8z0NVVRiGAcuyUvcpeLFYPL4vCD+OAKqqYjQawbbt7+HBYIBOp/PypV9TrVZBKUW32/0ebrfbaDabudCP1Go1iKL4Gl4ulxgOh4VhQRBACHkN9/t9UEpz9fZzeJ5HqVR6DVNKIUlSIRQA7vf0VnjAs9kMuq7/Ck6SBEmSZMOapkGSpFSv8iSKIsRxnA1zHIfb7YbL5VIIPZ/P8DwPQRA8nT+m5LoujscjeJ6HoigghGQOBXjvKWMMURTB8zzs93u4rpsNO44DjuOw3W5Rr9dBCAHHvX/oM/4xKMYY4jhGEARwXReHw+EJ/h+LvkjeAAxphggcnUW5AAAAAElFTkSuQmCC"/>
+      </g>
+    </mask>
+    <filter id="luminosity-invert-5" x="49.63" y="6.61" width="25" height="10" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feColorMatrix result="cm" values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0"/>
+    </filter>
+    <mask id="mask-4" x="49.63" y="6.61" width="25" height="10" maskUnits="userSpaceOnUse">
+      <g class="cls-15">
+        <image width="25" height="10" transform="translate(49.63 6.61)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAALCAYAAABhwJ3wAAAACXBIWXMAAAsSAAALEgHS3X78AAABKElEQVQ4jb2TvYrCUBBGz9xoYqJIohJEBFtrH8AXEHxda18gIDZCIBaBmzQRBDX4x93K3UJlF1Zyqim+4fDBDFSEAKYKj6pAAkDtMQwGA3zfx7ZtlFKICCKCZVnU63WazSaNRgPP8/A8D9d1cV0X27YREW63G2VZst/vybKMJEmI4/hZ9MAYgzEGEfkJ1WoEQUCv1yMIAsIwpN/v0+l0aLVaKKW4Xq/sdjvSNGW9XpPn+etGWmu01m+rTyYTDocDx+ORdrv9Le92uziOw/l8xrIsiqKgLEtWq9Vr0W9EUUQURQDMZjPyPOd0OjEcDvF9n8vlQpZlaK1J0/Rp/19XN5/PGY/HjEYj7vc72+2WzWbDYrF48nzkvKfTKSLCcrl8F/mM6A9U90dfgrZok0g1bPQAAAAASUVORK5CYII="/>
+      </g>
+    </mask>
+    <filter id="luminosity-invert-6" x="33.63" y="6.61" width="13" height="10" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feColorMatrix result="cm" values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0"/>
+    </filter>
+    <mask id="mask-5" x="33.63" y="6.61" width="13" height="10" maskUnits="userSpaceOnUse">
+      <g class="cls-6">
+        <image width="13" height="10" transform="translate(33.63 6.61)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAALCAYAAABPhbxiAAAACXBIWXMAAAsSAAALEgHS3X78AAAAfElEQVQokcWROwoEIRBE38rmggaewPvfxdgLOMEw4AcVoTeabGEHky1oqORRXRRs6gXIDqd2E9+38d5jrUUpRWuNUgo5Z+acjDForX0HjTE455hz0ntnrUVK6XeiiFBr5TgOQgjPX72ui/M8iTE+7imAaK3l9g/uD3Nsgx+DAUB3hj3kfAAAAABJRU5ErkJggg=="/>
+      </g>
+    </mask>
+  </defs>
+  <g class="cls-10">
+    <g id="Calque_2" data-name="Calque 2">
+      <g id="Calque_1-2" data-name="Calque 1">
+        <g>
+          <g>
+            <path class="cls-11" d="M13.98,9.53L0,49.63h7.17l2.8-8.63h17.68l2.8,8.63h7.17L23.64,9.53h-9.66ZM11.54,36.14l6.87-21.21h.79l6.87,21.21h-14.53Z"/>
+            <polygon class="cls-11" points="130.95 26.39 111.47 26.39 111.47 9.52 104.97 9.52 104.97 49.56 111.47 49.56 111.47 31.97 130.95 31.97 130.95 49.56 137.44 49.56 137.44 9.52 130.95 9.52 130.95 26.39"/>
+            <path class="cls-11" d="M168.7,49.58h-28.31V9.52h8.64c1.4,0,2.31-1.46,1.72-2.73-.67-1.42-1.55-3.04-2.42-3.96l-1.06-1.12c-.61-.65-.16-1.71.73-1.71h2.32c1.28,0,2.44.75,2.97,1.92l.63,1.4c1.69,3.77,5.44,6.2,9.58,6.2h5.21c-1.33,1.16-2.06,5.07-4.1,5.58-.04.02-14.61,0-17.72,0v11.53h15.51v5.15h-15.51v12.2c3.11,0,17.68-.02,17.72,0,2.04.52,2.77,4.42,4.1,5.58Z"/>
+          </g>
+          <g>
+            <path class="cls-11" d="M100.45,11.24c-2.5,2.12-1.01,6.41-1.65,9.02-.33,1.65-1.9,3.12-3.64,3.28-4.67.6-10.32-8.65-11.6-12.58-.14-.46-.51-1.27-.04-1.44h18.65c.16.19-1.02,1.1-1.72,1.72Z"/>
+            <g class="cls-5">
+              <g class="cls-7">
+                <path class="cls-11" d="M100.45,11.24c-2.5,2.12-1.01,6.41-1.65,9.02-.33,1.65-1.9,3.12-3.64,3.28-4.67.6-10.32-8.65-11.6-12.58-.14-.46-.51-1.27-.04-1.44h18.65c.16.19-1.02,1.1-1.72,1.72Z"/>
+              </g>
+            </g>
+          </g>
+          <g>
+            <path class="cls-11" d="M48.31,28.85c2.79.11,6.63.14,8.74-1.89,1.38-1.27,1.75-3.47,1.45-5.3-.46-3.23-3.14-4.4-5.94-4.63-4.48-.43-8.78-.2-8.42,5.55-.25,3.03.65,5.94,4.03,6.25h.13Z"/>
+            <g class="cls-3">
+              <g class="cls-7">
+                <path class="cls-11" d="M48.31,28.85c2.79.11,6.63.14,8.74-1.89,1.38-1.27,1.75-3.47,1.45-5.3-.46-3.23-3.14-4.4-5.94-4.63-4.48-.43-8.78-.2-8.42,5.55-.25,3.03.65,5.94,4.03,6.25h.13Z"/>
+              </g>
+            </g>
+          </g>
+          <g>
+            <path class="cls-11" d="M59.66,49.4s-.03.08-.05.11h-19.31c-.27-.08-.32-.21.02-.41,6.35-3.78,1.29-8.58,5.42-12.05,1.26-.98,3.05-.97,4.82-.9,2.33.06,4.36.52,5.74,2.28l.08.1c.92,1.23,1.39,2.97,1.73,4.36.37,1.72,1.31,4.87,1.54,6.52Z"/>
+            <g class="cls-8">
+              <g class="cls-7">
+                <path class="cls-11" d="M59.66,49.4s-.03.08-.05.11h-19.31c-.27-.08-.32-.21.02-.41,6.35-3.78,1.29-8.58,5.42-12.05,1.26-.98,3.05-.97,4.82-.9,2.33.06,4.36.52,5.74,2.28l.08.1c.92,1.23,1.39,2.97,1.73,4.36.37,1.72,1.31,4.87,1.54,6.52Z"/>
+              </g>
+            </g>
+          </g>
+          <path class="cls-2" d="M82.14,26.79c-1.49-1.47-3.16-3.14-4.46-4.87-1.01-1.36-2.11-2.96-3.93-3.19-1.8-.31-3.73.81-4.35,2.5-.65,1.96-.21,4.21-1.16,6.1-1.27,3.38-6.18,4.62-3.85,8.97,1.45,1.85,2.28,3.88,3.34,5.94,1.18,1.85,3.73,2.39,5.51,1.21,1.46-.86,1.98-2.8,2.76-4.28.91-1.77,2.24-3.49,3.86-4.69,3.08-1.75,5.05-4.42,2.36-7.59l-.09-.1Z"/>
+          <g>
+            <path class="cls-11" d="M98.7,49.5s-.03,0-.04,0h-15.94c-.06-.11-.01-.32.09-.73,1.77-5.44,2.05-11.24,6.73-13.4,2.89-1.34,6.41-.58,8.41,1.91.17.2.3.47.42.75.29.71.42,1.48.44,2.25.03,2.03.08,7.06-.1,9.2Z"/>
+            <g class="cls-16">
+              <g class="cls-7">
+                <path class="cls-11" d="M98.7,49.5s-.03,0-.04,0h-15.94c-.06-.11-.01-.32.09-.73,1.77-5.44,2.05-11.24,6.73-13.4,2.89-1.34,6.41-.58,8.41,1.91.17.2.3.47.42.75.29.71.42,1.48.44,2.25.03,2.03.08,7.06-.1,9.2Z"/>
+              </g>
+            </g>
+          </g>
+          <g>
+            <path class="cls-11" d="M68.28,14.54h-.13c-1.6.01-2.81-1.32-4.16-2.02-4.69-2.43-10.43.12-11.74-2.58-.11-.23-.06-.36-.03-.42h19.87c.13.05.2.17.24.37.34,2.3-1.74,4.68-4.06,4.64Z"/>
+            <g class="cls-12">
+              <g class="cls-7">
+                <path class="cls-11" d="M68.28,14.54h-.13c-1.6.01-2.81-1.32-4.16-2.02-4.69-2.43-10.43.12-11.74-2.58-.11-.23-.06-.36-.03-.42h19.87c.13.05.2.17.24.37.34,2.3-1.74,4.68-4.06,4.64Z"/>
+              </g>
+            </g>
+          </g>
+          <g>
+            <path class="cls-11" d="M44.04,9.63c-.7.45-1.8.39-3.06.97-1.39.45-2.86,1.75-3.9,3.17l-.09.07c-.2.12-.32.02-.4-.19-.2-.56-.1-3.44-.04-4.06,0-.03.02-.05.04-.06h7.41c.05.03.07.06.04.11Z"/>
+            <g class="cls-1">
+              <g class="cls-7">
+                <path class="cls-11" d="M44.04,9.63c-.7.45-1.8.39-3.06.97-1.39.45-2.86,1.75-3.9,3.17l-.09.07c-.2.12-.32.02-.4-.19-.2-.56-.1-3.44-.04-4.06,0-.03.02-.05.04-.06h7.41c.05.03.07.06.04.11Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
