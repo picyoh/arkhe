@@ -19,9 +19,15 @@
         text-align: left;
     }
 
+    .rightText {
+        text-align: right;
+    }
+
     h2 {
         font-size: 2rem;
         font-weight: 200;
+        text-align: center;
+        line-height: 2rem;
     }
 
     #mainContainer {
@@ -47,6 +53,21 @@
         rotate: 170deg;
         filter: hue-rotate(190deg) brightness(120%) saturate(90%);
     }
+
+    .whoBlock {
+        min-width: 27%;
+        position: relative;
+        left: 1.5%;
+    }
+
+    p {
+        max-width: 40%;
+        font-family: var(--font-geist);
+        font-size: .7rem;
+        position: relative;
+        left: 8%;
+    }
+
 </style>
 <div id="mainContainer">
     <h1>
@@ -86,9 +107,9 @@
 <Image />
 </div>
 -->
-    <h2>
-        <div><span class="redText">Qui</span> est derrière</div>
-        <div>Arkhè sudio ?</div>
+    <h2 class="whoBlock">
+        <div class="rightText"><span class="redText">Qui</span> est derrière</div>
+        <div class="leftText">Arkhè sudio ?</div>
     </h2>
     <p>
         Moi c'est Claire Coste, designeuse graphique depuis plus de 7 ans, je
