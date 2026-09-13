@@ -2,16 +2,87 @@
 
 ---
 
-<nav>
-    <label>
-        <span></span>
-        <span></span>
-        <span></span>
-    </label>
-    <p>Menu</p>
-    <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
-</nav>
+<style>
+    .navContainer {
+        width: 95%;
+        padding-left: 1rem;
+        padding-top: 1.5rem;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        width: 10%;
+        font-family: var(--font-geist);
+        text-transform: uppercase;
+        box-shadow: 5px 5px 10px #ff2400;
+        padding: 0 .5rem;
+    }
+
+    .subMenu {
+        display: none;
+    }
+
+    .burger {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 25px;
+ 
+    }
+
+    .burger span {
+        display: block;
+        position: absolute;
+        width: 25px;
+        height: 3px;
+        background-color: #ff2400;
+        top: 46%;
+    }
+
+    .burger span:first-of-type {
+        top: 26%;
+    }
+
+    .burger span:last-of-type {
+        top: 65%;
+    }
+
+    nav p {
+        margin: 0.5rem 0 .5rem .5rem;
+    }
+
+    #burgerCheckbox {
+        margin: 0;
+        position: absolute;
+        z-index: -1;
+        width: 26px;
+        height: 30px;
+        opacity: 0;
+    }
+
+    #burgerCheckbox:checked{
+        
+    }
+
+</style>
+<div class="navContainer">
+    <nav>
+        <label class="burger">
+            <input id="burgerCheckbox" type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <p>Menu</p>
+        <ul class="subMenu">
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </nav>
+</div>
+
+<style>
+    const 
+</style>

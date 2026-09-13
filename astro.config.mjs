@@ -1,14 +1,13 @@
 // @ts-check
 import { defineConfig, fontProviders } from "astro/config";
-import icon from "astro-icon";
+import icon from "astro-iconset";
 
 // https://astro.build/config
 export default defineConfig({
-    integrations: [icon({
-        include: {
-            mdi: ["*"],
-        },
-    })],
+    server: {
+        open: true
+    },
+    integrations: [icon()],
     fonts: [{
         provider: fontProviders.fontsource(),
         name: "Bricolage Grotesque",

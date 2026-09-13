@@ -12,11 +12,11 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^7.3.2"
+    "astro": "^7.3.2",
+    "astro-iconset": "^0.0.6"
   },
   "devDependencies": {
     "@iconify-json/fa7-solid": "^1.2.5",
-    "@iconify-json/mdi": "^1.2.3",
-    "astro-icon": "^1.2.0"
+    "@iconify-json/mdi": "^1.2.3"
   }
 }
