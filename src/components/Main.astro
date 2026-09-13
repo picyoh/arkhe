@@ -1,5 +1,5 @@
 ---
-
+import ButtonLink from "./ButtonLink.astro";
 ---
 
 <style>
@@ -38,6 +38,48 @@
         align-items: center;
     }
 
+    #anchorContainer {
+        margin: 1rem;
+    }
+
+    #anchored {
+        position: relative;
+        border: 1px solid #ff2400;
+        padding: 0 0.8rem;
+    }
+
+    .anchor {
+        width: 6px;
+        height: 6px;
+        background-color: #ff2400;
+        position: absolute;
+    }
+
+    .leftTop {
+        top: -3px;
+        left: -3px;
+    }
+
+    .leftBottom {
+        bottom: -3px;
+        left: -3px;
+    }
+
+    .rightTop {
+        top: -3px;
+        right: -3px;
+    }
+
+    .rightBottom {
+        bottom: -3px;
+        right: -3px;
+    }
+
+    .contactContainer {
+        width: 30%;
+        margin: 2rem 0 7rem 0;
+    }
+
     .redText {
         color: #ff2400;
     }
@@ -45,13 +87,41 @@
     .decoContainer {
         position: absolute;
         width: 5%;
-        top:23%;
+        top: 23%;
     }
 
     .deco {
         width: 80%;
         rotate: 170deg;
         filter: hue-rotate(190deg) brightness(120%) saturate(90%);
+    }
+
+    .portraitContainer {
+        position: absolute;
+        max-width: 17%;
+        top: 67%;
+        left: 20%;
+    }
+
+    .portraitPath {
+        clip-path: path(
+            "M 0 124 Q 20 0 111 55 Q 200 114 88 154 Q 16 180 1 131 Z"
+        );
+    }
+
+    .portrait {
+        width: 100%;
+        object-fit: cover;
+        object-position: -1rem 1.5rem;
+    }
+
+    .portraitDeco {
+        position: absolute;
+        z-index: -1;
+        rotate: 170deg;
+        top: 55%;
+        left: -10%;
+        width: 50%;
     }
 
     .whoBlock {
@@ -63,12 +133,12 @@
     p {
         max-width: 40%;
         font-family: var(--font-geist);
-        font-size: .7rem;
+        font-size: 0.7rem;
         position: relative;
         left: 8%;
     }
-
 </style>
+
 <div id="mainContainer">
     <h1>
         <div>Avec Arkhè,</div>
@@ -90,7 +160,15 @@
         </div>
         <div>Arkhè studio s'adresse aux entreprises</div>
         <div>qui souhaitent donner à leur identité</div>
-        <div id="archor"><span class="redText">un vraie portée</span></div>
+        <div id="anchorContainer">
+            <span id="anchored" class="redText">
+                <span class="anchor leftTop"></span>
+                <span class="anchor leftBottom"></span>
+                <span class="anchor rightTop"></span>
+                <span class="anchor rightBottom"></span>
+                un vraie portée
+            </span>
+        </div>
     </h2>
     <p>
         Chez Arkhè studio on pense qu'une bonne communication c'est une
@@ -100,15 +178,21 @@
         toujours facile, on prend le temps, autour d'un café ou d'une visio, de
         discuter sur votre projet, vos attentes, vos doutes.
     </p>
-    <!--
-<Button>Contact</Button>
-<div>
-<Image />
-<Image />
-</div>
--->
+    <div class="contactContainer">
+        <ButtonLink id="contact" title="contact" href="contact"
+            >Contact</ButtonLink
+        >
+    </div>
+    <div class="portraitContainer">
+        <img class="portraitDeco" src="../../src/assets/FluideCouleur01.svg" />
+        <div class="portraitPath">
+            <img class="portrait" src="../../src/assets/ShootingCC02.jpg" />
+        </div>
+    </div>
     <h2 class="whoBlock">
-        <div class="rightText"><span class="redText">Qui</span> est derrière</div>
+        <div class="rightText">
+            <span class="redText">Qui</span> est derrière
+        </div>
         <div class="leftText">Arkhè sudio ?</div>
     </h2>
     <p>
