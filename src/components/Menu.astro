@@ -10,27 +10,97 @@
     }
 
     nav {
+        overflow: hidden;
         display: flex;
-        justify-content: center;
         width: 10%;
         font-family: var(--font-geist);
         text-transform: uppercase;
         box-shadow: 5px 5px 10px #ff2400;
-        padding: 0 .5rem;
+        padding: 0 ;
+        padding-left: .5rem;
+        transition: all 1s ease;
+    }
+
+    nav:has(input:checked){
+        width: 40%;
     }
 
     .subMenu {
-        display: none;
+        display: flex;
+        list-style: none;
+        white-space: nowrap;
+        width: 0;
+        margin: .5rem 0;
+        padding: 0;
+        gap: 1rem;
+        opacity: 0;
+        transition: all 1.5s ease;
+    }
+
+    .subMenu li {
+        display: flex;
+        justify-content: center;
+        width: 0;
+        pointer-events: none;
+        transition: all 1.5s ease;
+    }
+
+    .redButton {
+        background-color: #ff2400;
+        border-radius: .3rem;
+        padding: 0 3px;
+    }
+    
+    .redButton a {
+        color: #fafae6;
+    }
+    
+    .redButton a:hover {
+        color: black;
+    }
+
+    .burger:has(input:checked) ~ .subMenu{
+        width: 100%;
+        margin: .5rem 1rem;
+        opacity: 1;
+    }
+
+    .burger:has(input:checked) ~ .subMenu li{
+        width: 100%;
+        pointer-events: all;
+    }
+    
+    nav p {
+        width: fit-content;
+        margin: 0.5rem;
+        opacity: 1;        
+        transition: all 1.5s ease;
+    }
+
+    .burger:has(input:checked) ~ p {
+        width: 0;
+        margin: .5rem 0;
+        opacity: 0;
+    }
+
+    a:link {
+        text-decoration: none;
+        color: black;
+    }
+
+    a:visited {
+        color: purple;
+    }
+
+    a:hover {
+        color: #ff2400;
     }
 
     .burger {
         position: relative;
-        display: flex;
-        flex-direction: column;
-        width: 25px;
- 
+        width: 30px;
     }
-
+    
     .burger span {
         display: block;
         position: absolute;
@@ -38,6 +108,8 @@
         height: 3px;
         background-color: #ff2400;
         top: 46%;
+        left: 0%;
+        transition: all 1.5s ease;
     }
 
     .burger span:first-of-type {
@@ -48,23 +120,34 @@
         top: 65%;
     }
 
-    nav p {
-        margin: 0.5rem 0 .5rem .5rem;
-    }
-
     #burgerCheckbox {
         margin: 0;
         position: absolute;
         z-index: -1;
         width: 26px;
         height: 30px;
+        left: 0;
+        top:10%;
         opacity: 0;
     }
 
-    #burgerCheckbox:checked{
-        
+    #burgerCheckbox:checked ~ span:first-of-type{
+        transform : rotate(90deg);
+        left: -30%;
+        top: 45%;
     }
-
+    
+    #burgerCheckbox:checked ~ span:nth-child(3){
+        transform : rotate(90deg);
+        left: 0%;
+        top: 45%;
+    }
+    
+    #burgerCheckbox:checked ~ span:last-of-type{
+        transform : rotate(90deg);
+        left: 35%;
+        top: 45%;
+    }
 </style>
 <div class="navContainer">
     <nav>
@@ -76,9 +159,21 @@
         </label>
         <p>Menu</p>
         <ul class="subMenu">
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>
+                <a href="/home">
+                    À PROPOS
+                </a>
+            </li>
+            <li>
+                <a href="/projets">
+                    PROJETS
+                </a>
+            </li>
+            <li class="redButton">
+                <a href="/contact">
+                    CONTACT
+                </a>
+            </li>
         </ul>
     </nav>
 </div>
